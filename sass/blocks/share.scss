@@ -1,0 +1,240 @@
+@media #{$mobile-width} {
+	.share {
+
+		&__list {
+			display: flex;
+			padding: 32px 0 30px;
+			min-height: 41px;
+		}	
+
+		&__Instagram {
+			display: none;
+		}
+
+		&__title {
+			display: none;
+		}
+
+		&__link {
+			width: 37px;
+			height: 37px;
+			margin-right: 16px;
+
+
+			border: 2px solid #2c87ce; 
+			border-radius: 25px;
+		}
+
+		&__facebook {
+			background-image: url(../img/icons/facebook.png);
+			background-position: center;
+			background-repeat: no-repeat;
+		}
+
+		&__twitter {
+			background-image: url(../img/icons/twitter.png);
+			background-position: center;
+			background-repeat: no-repeat;
+		}
+
+		&__pinterest {
+			background-image: url(../img/icons/pinterest.png);
+			background-position: center;
+			background-repeat: no-repeat;
+		}
+
+		&__youtube {
+			background-image: url(../img/icons/youtube.png);
+			background-position: center;
+			background-repeat: no-repeat;
+		}
+	}
+}
+
+
+@media #{$tablet-width} {
+
+	.share {
+
+		&__list {
+			display: flex;
+			flex-direction: column;
+			padding-bottom: 10px;
+			min-height: 205px;
+		
+			position: absolute;
+			left: 52px;
+			top: 115px;
+			z-index: 9;
+		}
+		
+
+		&__Instagram {
+			display: none;
+		}
+
+		&__title {
+			display: none;
+		}
+
+		&__link {
+			width: 37px;
+			height: 37px;
+			margin-bottom: 10px;
+
+
+			border: 2px solid #2c87ce; 
+			border-radius: 25px;
+		}
+
+		&__facebook {
+			background-image: url(../img/icons/facebook.png);
+			background-position: center;
+			background-repeat: no-repeat;
+		}
+
+		&__twitter {
+			background-image: url(../img/icons/twitter.png);
+			background-position: center;
+			background-repeat: no-repeat;
+		}
+
+		&__pinterest {
+			background-image: url(../img/icons/pinterest.png);
+			background-position: center;
+			background-repeat: no-repeat;
+		}
+
+		&__youtube {
+			background-image: url(../img/icons/youtube.png);
+			background-position: center;
+			background-repeat: no-repeat;
+		}
+	}
+
+}
+
+
+@media #{$desktop-width} {
+
+	.share {
+		position: relative;
+
+		&:hover > div {
+			display: flex;
+		}
+
+		&__title {
+			font-size: 18px;
+			line-height: 16px;
+			font-weight: bold;
+			color: #2c87ce;
+			text-transform: none;
+			position: absolute;
+    		left: 108px;
+    		top: -45px;
+    		cursor: pointer;
+
+		}
+
+		&__list {
+			display: none;
+			flex-direction: row;
+			position: absolute;
+			top: -14px;
+			left: 5px;
+
+			min-width: 263px;
+			min-height: 41px;
+			padding: 20px 12px;
+
+			background-color: #ffffff;
+			box-shadow: 0 0 9px rgba(0, 0, 0, 0.6);
+		}
+
+		&__link {
+			width: 37px;
+			height: 37px;
+			margin-right: 14px;
+
+			border: 2px solid #2c87ce; 
+			border-radius: 25px;
+
+			&::before {
+				content: "";
+				position: absolute;
+				border: 7px solid transparent;
+				border-bottom-color: #fff;
+				left: 135px;
+				top: -12px;
+				border-left-width: 9px;
+				border-right-width: 9px;
+				z-index: 1;
+			}
+		}
+
+		&__facebook {
+			background-image: url(../img/icons/facebook.png);
+			background-position: center;
+			background-repeat: no-repeat;
+		}
+
+		&__twitter {
+			background-image: url(../img/icons/twitter.png);
+			background-position: center;
+			background-repeat: no-repeat;
+		}
+
+		&__pinterest {
+			background-image: url(../img/icons/pinterest.png);
+			background-position: center;
+			background-repeat: no-repeat;
+		}
+
+		&__youtube {
+			background-image: url(../img/icons/youtube.png);
+			background-position: center;
+			background-repeat: no-repeat;
+		}
+
+		&__instagram {
+			position: relative;
+			width: 37px;
+			height: 37px;
+
+			border: 2px solid #2c87ce; 
+			border-radius: 25px;
+
+			background-image: url(../img/icons/instagram.png);
+			background-position: center;
+			background-repeat: no-repeat;
+
+			&::before {
+				content: "";
+				position: absolute;
+				height: 6px;
+				width: 33px;
+				background-color: #2c87ce;
+				transform: rotate(-45deg);
+				top: 15px;
+				left: 1px;
+			}
+
+			&::after {
+				content: "";
+				position: absolute;
+				height: 6px;
+				width: 33px;
+				background-color: #2c87ce;
+				transform: rotate(45deg);
+				top: 15px;
+				left: 1px;
+
+			}
+
+
+		}
+
+	}
+
+}

@@ -1,0 +1,192 @@
+@media #{$mobile-width} {
+	.selected {
+		box-shadow: 0 0 9px rgba(0, 0, 0, 0.6);
+	}
+
+	.product-main {
+		display: flex;
+		flex-direction: column;
+
+		&__title {
+
+			&-mobil {
+				display: block;
+				padding: 30px 38px 20px;
+
+				text-align: left;
+				line-height: 18px;
+			}
+			
+			&-tablet {
+				display: none;
+			}
+
+			&-desktop {
+				display: none;
+			}
+		}
+
+		&__img {
+
+			& img {
+				display: block;
+				margin: auto;
+				width: 100%;
+				height: auto;
+			}
+		}
+
+		&__info {
+			margin: 0 auto;
+			padding: 0 38px;
+		}
+
+		&__id {
+			display: block;
+			margin: 0;
+			padding: 5px 0 5px;
+
+			text-transform: capitalize;
+			font-size: 12px;
+			line-height: 32px;
+			font-weight: 400;
+		}
+
+    	&__btn {
+    		padding: 14px 0;
+    		margin: 44px auto;
+    		min-width: 280px;
+
+    	}
+	}
+}
+
+
+@media #{$tablet-width} {
+	.selected {
+		box-shadow: 0 0 9px rgba(0, 0, 0, 0.6);
+	}
+
+	.product-main {
+		display: flex;
+		flex-wrap: wrap;
+		justify-content: space-between;
+		margin: 0 auto;
+		padding-left: 37px;
+		padding-right: 41px;
+		position: relative;
+
+		&__title-mobil {
+			display: none;
+		}
+
+		&__title-desktop {
+			display: none;
+		}
+
+		&__title {
+			width: 100%;
+			padding: 37px 0 24px;
+		}
+
+		&__titlem-tablet {
+			line-height: 30px;
+			text-align: left;
+
+		}
+
+		&__img {
+			width: 52%;
+			z-index: 1px;
+
+
+			& img {
+				display: block;
+				width: 100%;
+				height: auto;
+			}
+		}
+
+		&__info {
+			display: flex;
+    		flex-direction: column;
+			width: 45%;
+		}
+
+		&__id {
+			display: block;
+			margin-top: -12px;
+			padding: 0;			
+
+			text-transform: capitalize;
+			font-size: 11px;
+			line-height: 32px;
+			font-weight: 400;
+		}
+
+		&__btn {
+    		max-width: 220px;
+   			padding: 6px 43px;
+    	}
+
+	}
+}
+
+@media #{$desktop-width} {
+	.selected {
+		box-shadow: 0 0 9px rgba(0, 0, 0, 0.6);
+	}
+
+	.product-main {
+		display: flex;
+		flex-wrap: wrap;
+		justify-content: space-between;
+		margin: 0 auto;
+		padding: 27px 48px 0 50px;
+
+		&__title {
+			display: none;
+		}
+
+		&__titlem-desktop {
+			line-height: 30px;
+			text-align: left;
+			padding: 0;
+
+		}
+
+		&__img {
+			width: 48%;
+
+			& img {
+				display: block;
+				width: 100%;
+				height: auto;
+			}
+		}
+
+		&__info {
+			display: flex;
+    		flex-direction: column;
+			width: 46%;
+		}
+
+		&__id {
+			display: block;
+			padding: 6px 0;			
+
+			text-transform: capitalize;
+			font-size: 10px;
+			line-height: 32px;
+			font-weight: 400;
+		}
+
+		&__btn {
+    		max-width: 215px;
+   			padding: 4px 57px;
+   			font-size: 14px;
+    	}
+	}
+}
+
+

@@ -1,0 +1,177 @@
+@media #{$mobile-width} {
+
+	.color {
+
+		&__title-tablet{
+			display: none;
+		}
+
+		&__title-mobil {
+			padding-bottom: 16px;
+
+			font-size: 16px;
+		}
+
+		&__list {
+			display: flex;
+			flex-direction: row;
+			margin: 0;
+			padding: 0;
+			min-height: 40px;
+
+			text-transform: none;
+			list-style: none;
+		}
+
+		&__item {
+			padding-right: 11px;	
+		}
+
+		&__link {
+			display: block;
+			width: 40px;
+			height: 40px;
+
+			cursor: pointer;
+			border-radius: 25px;
+
+			&--blue {
+				background-color: #77d8e7;
+			}
+
+			&--green {
+				background-color: #96c795;
+			}
+
+			&--red {
+				background-color: #ce92a1;
+			}
+
+			&--purple {
+				background-color: #aa93cf;
+			}
+		}	
+	}
+}
+
+
+@media #{$tablet-width} {
+
+	.color {
+		display: flex;
+		min-width: 41px;
+		padding-bottom: 22px;
+
+		&__title-mobil{
+			display: none;
+		}
+
+		&__title-tablet {
+			padding-right: 16px;
+			padding-top: 4px;
+
+			font-size: 14px;
+		}
+
+		&__list {
+			display: flex;
+			flex-direction: row;
+			margin: 0;
+			padding: 0;
+			min-height: 40px;
+
+			text-transform: none;
+			list-style: none;
+		}
+
+		&__item {
+			padding-right: 10px;	
+		}
+
+		&__link {
+			display: block;
+			width: 40px;
+			height: 40px;
+
+			cursor: pointer;
+			border-radius: 25px;
+
+			&--blue {
+				background-color: #77d8e7;
+			}
+
+			&--green {
+				background-color: #96c795;
+			}
+
+			&--red {
+				background-color: #ce92a1;
+			}
+
+			&--purple {
+				background-color: #aa93cf;
+			}
+		}
+	}
+}
+
+
+@media #{$desktop-width} {
+
+	.color {
+		display: flex;
+		min-width: 41px;
+		padding-bottom: 13px;
+
+		&__title-mobil{
+			display: none;
+		}
+
+		&__title-tablet {
+			padding-right: 16px;
+			padding-top: 4px;
+
+			font-size: 14px;
+		}
+
+		&__list {
+			display: flex;
+			flex-direction: row;
+			margin: 0;
+			padding: 0;
+			min-height: 40px;
+
+			text-transform: none;
+			list-style: none;
+		}
+
+		&__item {
+			padding-right: 10px;	
+		}
+
+		&__link {
+			display: block;
+			width: 40px;
+			height: 40px;
+
+			cursor: pointer;
+			border-radius: 25px;
+
+			&--blue {
+				background-color: #77d8e7;
+			}
+
+			&--green {
+				background-color: #96c795;
+			}
+
+			&--red {
+				background-color: #ce92a1;
+			}
+
+			&--purple {
+				background-color: #aa93cf;
+			}
+		}
+	}
+}

@@ -1,0 +1,55 @@
+@media #{$mobile-width} {
+
+	.recommendation {
+
+		&__wrap {
+			margin: 0 auto;
+			padding: 0 66px 0 56px;
+
+		}
+
+		&__title {
+			padding-bottom: 10px;
+
+			font-size: 24px;
+
+		}
+
+		
+
+	}
+}
+
+
+@media #{$tablet-width} {
+
+	.recommendation {
+
+		&__wrap {
+			margin: 0 auto;
+			padding-left: 37px;
+    		padding-right: 41px;
+		}
+
+		&__title {
+			padding: 60px 0 34px;
+		}
+	}
+}
+
+
+@media #{$desktop-width} {
+
+	.recommendation {
+
+		&__wrap {
+			margin: 0 auto;
+			padding: 0px 48px 0 50px;
+		}
+
+		&__title {
+			text-align: left;
+			padding: 65px 0 10px;
+		}
+	}
+}

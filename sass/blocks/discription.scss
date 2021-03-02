@@ -1,0 +1,59 @@
+@media #{$mobile-width} {
+
+	.discription {
+
+		&__title {
+			display: none;
+		}
+
+		&__text {
+			margin: 0px;
+
+			font-size: 14px; 
+			line-height: 20px;
+			text-transform: none;
+			font-weight: 400;
+		}
+	}
+
+}
+
+
+@media #{$tablet-width} {
+
+	.discription {
+
+		&__title {
+			padding: 15px 0 10px;
+
+			line-height: 16px;
+		}
+
+		&__text {
+			margin: 0px;
+
+			text-transform: none;
+			font-weight: 300;
+		}
+	}
+
+}
+
+@media #{$desktop-width} {
+
+	.discription {
+
+		&__title {
+			display: none;
+		}
+
+		&__text {
+			margin: 0px;
+
+			text-transform: none;
+			font-weight: 300;
+		}
+	}
+
+}
+
